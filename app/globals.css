@@ -132,7 +132,8 @@ header > div {
 
 footer {
   width: 100vw;
-  height: 10em;
+  padding: 1em 0;
+  min-height: 10em;
   bottom: 0px;
   position: absolute;
   display: flex;
