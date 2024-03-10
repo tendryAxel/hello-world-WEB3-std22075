@@ -1,3 +1,5 @@
+
+
 export default ({
     children,
   }: Readonly<{
@@ -5,11 +7,11 @@ export default ({
   }>) => {
     return (
         <div>
-            <div>
+            <header>
                 <div><a href="#" title="main">App</a></div>
-            </div>
+            </header>
             {children}
-            <div>
+            <footer>
                 <div>
                     <h1></h1>
                     <p></p>
@@ -17,7 +19,7 @@ export default ({
                 <div>
                     <input type="text" placeholder="Email" />
                 </div>
-            </div>
+            </footer>
         </div>
     )
 }

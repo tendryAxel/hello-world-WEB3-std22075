@@ -38,6 +38,9 @@
   --callout-border-rgb: 172, 175, 176;
   --card-rgb: 180, 185, 188;
   --card-border-rgb: 131, 134, 135;
+
+
+  --primary: 61, 104, 95;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -104,4 +107,25 @@ a {
   html {
     color-scheme: dark;
   }
+}
+
+
+
+
+header {
+  width: 100vw;
+  background-color: rgb(var(--primary));
+  height: 4em;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+}
+
+header > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
 }
