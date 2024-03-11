@@ -1,4 +1,4 @@
-class Todo {
+export class BlogModel {
     id: Number;
     name: string;
     image: string;
@@ -9,11 +9,11 @@ class Todo {
     }
 }
 
-export const allTodo = [
-    new Todo(1, "todo1", ""),
-    new Todo(2, "todo2", ""),
-    new Todo(3, "todo3", ""),
-    new Todo(4, "todo4", ""),
-    new Todo(5, "todo5", ""),
-    new Todo(6, "todo6", ""),
+export const allBlog = [
+    new BlogModel(1, "Blog1", ""),
+    new BlogModel(2, "Blog2", ""),
+    new BlogModel(3, "Blog3", ""),
+    new BlogModel(4, "Blog4", ""),
+    new BlogModel(5, "Blog5", ""),
+    new BlogModel(6, "Blog6", ""),
 ];

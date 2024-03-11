@@ -1,5 +1,5 @@
-import { allTodo } from "./data";
+import { allBlog } from "./data";
 
-const getAllTodo = () => {
-    return allTodo.slice();
+export const getAllBlog = () => {
+    return allBlog.slice();
 };
