@@ -2,10 +2,10 @@ export class BlogModel {
     id: Number;
     name: string;
     image: string;
-    constructor (id: Number = 0, name: string = "", image: string = ""){
-        this.id = id;
-        this.name = name;
-        this.image = image;
+    constructor (id: Number, name: string, image: string){
+        this.id = id ? id : 0;
+        this.name = name ? name : "";
+        this.image = image ? image : "";
     }
 }
 

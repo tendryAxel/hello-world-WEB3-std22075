@@ -11,7 +11,7 @@ export default ({
   return (
       <div>
           <header>
-              <div><a href="#" title="main">App</a></div>
+              <div><a href="/home" title="main">App</a></div>
           </header>
           {children}
           <footer>
