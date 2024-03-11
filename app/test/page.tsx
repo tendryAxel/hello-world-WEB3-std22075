@@ -1,3 +1,5 @@
 export default () => {
-    return <div>Test</div>
+    return <div className="container">
+        Main
+    </div>
 }
